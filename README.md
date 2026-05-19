@@ -54,9 +54,9 @@ The agent's tool palette now includes:
 
 Smoke-tested against live `api.lumetra.io`:
 
-- `store_memory.forward("Jacob's favorite quick-start framework for memory recipes is smolagents.")` → stored.
 - `store_memory.forward("smolagents uses 'forward' instead of '_run' for tool invocation.")` → stored.
-- `query_memory.forward("Which framework uses forward() for tool invocation?")` → answer: `"smolagents."`
+- `store_memory.forward("smolagents tools subclass smolagents.Tool and override forward(...).")` → stored.
+- `query_memory.forward("Which method does a smolagents Tool override for invocation?")` → answer: `"forward()."`
 
 ## License
 
